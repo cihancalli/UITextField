@@ -56,15 +56,39 @@
 		9947B6CC27DEA1E10002BC8A /* UITextField */ = {
 			isa = PBXGroup;
 			children = (
+				9947B6E327DEA2220002BC8A /* Views */,
+				9947B6E227DEA2170002BC8A /* Controllers */,
+				9947B6E127DEA1FD0002BC8A /* Supporting Files */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		9947B6E127DEA1FD0002BC8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				9947B6CD27DEA1E10002BC8A /* AppDelegate.swift */,
 				9947B6CF27DEA1E10002BC8A /* SceneDelegate.swift */,
-				9947B6D127DEA1E10002BC8A /* ViewController.swift */,
-				9947B6D327DEA1E10002BC8A /* Main.storyboard */,
 				9947B6D627DEA1E40002BC8A /* Assets.xcassets */,
 				9947B6D827DEA1E40002BC8A /* LaunchScreen.storyboard */,
 				9947B6DB27DEA1E40002BC8A /* Info.plist */,
 			);
-			path = UITextField;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9947B6E227DEA2170002BC8A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9947B6D127DEA1E10002BC8A /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9947B6E327DEA2220002BC8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9947B6D327DEA1E10002BC8A /* Main.storyboard */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
